@@ -1,0 +1,84 @@
+body {
+    background-color: #01161E;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #EFF6E0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 5px;
+    border: none;
+    font-size: 6vmin;
+    background-color: #EFF6E0;
+    color: #124559;
+    cursor: pointer;
+}
+
+#btn {
+    background-color: #AEC3B0;
+    color: #124559;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 75px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#new-btn {
+    background-color: #AEC3B0;
+    color: #124559;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#msg {
+    color: #AEC3B0;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
